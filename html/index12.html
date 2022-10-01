@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <font color="blue" align="center"><h1>Đăng ký du lịch</h1></font>
+    <table border="3" style="background:yellow; border-collapse: collapse;" align="center" color="blue">
+        <tr>
+            <td>Họ tên</td>
+            <td><input type="text" style="width: 300px;"></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text" style="width: 240px;"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Khách Việt Nam</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Chọn tour</td>
+            <td>
+                <select name="" id="">
+                    <option value="Thái Bình - Hà Nội">Thái Bình - Hà Nội</option>
+                    <option value="Hà Nội - Nam Định">Hà Nội - Nam Định</option>
+                    <option value="Nam Định - Hà Nam">Nam Định - Hà Nam</option>
+                </select>
+            </td> 
+        </tr>
+        <tr>
+            <td>Phương tiện</td>
+            <td>
+                <input type="radio" name="traffic" id="traffic"> 
+                <label for="traffic">Máy bay</label>
+                <input type="radio" name="traffic" id="traffic_2"> 
+                <label for="traffic_2">Xe ô tô</label>
+            </td>
+        </tr>
+        
+        <tr>
+                    <td align="center" colspan="2">
+                        <fieldset>
+                            <legend>Số lượng đoàn khách</legend>
+                            <label for="fname">Người lớn:</label>
+                         <input type="text" id="fname" name="fname">
+                        <label for="lname">Trẻ em:</label>
+                        <input type="text" id="lname" name="lname">
+                    </fieldset>
+                 </td>
+        </tr>
+
+
+        <tr>
+            <td>Ghi chú thêm</td>
+            <td> 
+                    <select name="" id="" size="2" multiple>
+                        <option value="">Có 2 trẻ em dưới 6 tuổi</option>
+                        <option value="">Có 2 người ăn chay</option>
+                        <option value="">Có 1 người ăn chay</option>
+                    </select>
+            </td>
+        </tr>
+        <tr><th colspan="2"><button>Đồng ý</button></th></tr>
+        <tr><th colspan="2">Bạn đã đăng ký thành công</th></tr> 
+    </table>
+</body>
+</html>

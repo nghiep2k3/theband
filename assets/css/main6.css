@@ -1,0 +1,25 @@
+/* reset css*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wapper{
+    opacity: 0.5;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color:lightslategry;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

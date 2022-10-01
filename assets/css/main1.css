@@ -1,0 +1,81 @@
+html{
+    background-image: url(https://img2.thuthuatphanmem.vn/uploads/2019/02/22/anh-dong-trai-tim_121245486.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.box1{
+    background-color: black;    background-color: aquamarine;
+    padding: 10px;
+    border:  dashed blue;
+    color: blue;
+    margin-top: 400px;
+    
+}
+.box2{
+    background-color: blue;    background-color: aquamarine;
+    padding: 10px;
+    border:  dashed blue;
+    margin-top: 310px;
+    
+}
+.box3{
+    background-color: aquamarine;
+    padding: 10px;
+    border:  dashed blue;
+    margin-top: 400px;
+    
+}
+.box4{
+    background-color: aquamarine;
+    padding: 10px;
+    border:  dashed blue;
+    margin-top: 310px;
+    
+}
+.box5{
+    background-color: aquamarine;
+    padding: 10px;
+    border:  dashed blue; margin-top: 400px;
+    
+}
+.box6{
+    background-color: aquamarine;
+    padding: 10px;
+    border:  dashed blue;
+    margin-top: 310px;
+}
+.box7{
+    background-color: aquamarine;
+    padding: 10px;
+    border:  dashed blue; margin-top: 400px;
+    
+}
+.box8{
+    background-color: aquamarine;
+    padding: 10px;
+    border:  dashed blue;
+    margin-top: 310px;
+}
+.box9{
+    background-color: aquamarine;
+    padding: 10px;
+    border:  dashed blue; margin-top: 400px;
+    
+}
+#image,image1{
+    width: 300px;
+    height: 300px;
+    margin-left: 250px;
+    background-color: black;
+    background-image: url(https://maytinhvui.com/wp-content/uploads/2020/11/hinh-nen-may-tinh-4k-game-min.jpg);
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}

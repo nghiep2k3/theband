@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #main{
+                width: 600px;
+                height: 500px;
+                border: 5px solid black;
+                background-color: #3A66A3;
+            }
+            
+            #main #heading_login{
+                padding: 30px;
+            }
+
+            #heading_login .img_heading{
+                padding-top: 2px;
+            }
+            #heading_login .body_login{
+                font-size: 25px;
+            }
+
+            #heading_login .body_login .row{
+                height: 35px;
+                width: 530px;
+            }
+
+            #heading_login .body_login .Log_in{
+                border: 2px solid white;
+                background-color: #3A66A3;
+                width: max-content;
+                padding: 15px 40px 15px 40px;
+                margin-left: 385px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="heading_login">
+                <div class="img_heading">
+                    <img style="width: 250px;" src="/assets/img/pka.png" alt="">
+                </div>
+
+                <div class="body_login">
+                    Email <br> <span"><input class="row" type="email"> </span><br>
+                    Password <br> <span ><input class="row" type="password"></span> <br>
+                    <input type="checkbox"> Stay signed in 
+                    <div class="Log_in">Log In</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
