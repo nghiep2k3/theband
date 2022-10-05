@@ -127,7 +127,7 @@ html{
 #nav li a{
     text-decoration: none; /* để bỏ gạch chân của chữ*/
     padding: 0px 24px;
-    line-height: 46px;
+    line-height: 46px; /*đôi đen chọn đc cả khung */
     display: inline-block;
 }
 
@@ -138,8 +138,7 @@ html{
     left: 0;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    min-width: 160px;
-    
+    min-width: 160px; 
 }
 
 #nav li:hover .subnav{
@@ -149,7 +148,7 @@ html{
 #nav .subnav a{
     color: black;
     padding:   0 12px;
-    line-height: 38px;
+    line-height: 38px;  /*chiều cao dòng chữ khi bôi đen, nó sẽ tự căn giữa*/
 }
 
 
