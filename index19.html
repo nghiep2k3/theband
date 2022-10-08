@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #nav, .subnav{
+    list-style-type: none; /* xóa dấu chấm của thẻ ul*/
+    }
+
+    #nav > li{
+        display: inline-block;
+    }
+
+    #nav{
+        display: inline-block;
+    }
+
+    #nav .subnav li:hover{
+        display: block;
+    }
+    #nav .subnav {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        min-width: 100px;  
+    }
+        .cntt_header
+        {
+            display : flex ;
+            justify-content: space-between;
+            background-color: #223771;
+        }
+
+        #nav{
+            display : flex ;
+            position: relative;
+        }
+
+        li{
+            list-style: none;
+            color : white ;
+            /* position: absolute; */
+        }
+
+        div + div
+        {
+            margin : 0 10px;
+        }
+
+        #nav>li{
+            border-right: 2px solid rgb(35, 7, 7) ;
+            padding-top  : 10px;
+            padding-bottom: 10px;   
+            padding-right  : 17px;
+            margin-right : 18px;
+            /* position: absolute; */
+            /* top : -6px; */
+        }
+        .bo_border
+        {
+            border-right : none ;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class= "cntt_header">
+        <ul class = "header_text">
+            <li class = "bo_border" href="">
+                <a >KHOA CONG NGHE THONG TIN</a>
+            </li>
+        </ul>
+
+        <ul id="nav">
+            <li href="">
+                <a class = "box_li" >Giới thiệu</a>
+                <ul class="subnav">
+                    <li><a href="">Merchandise</a></li>
+                    <li><a href="">Extras</a></li>
+                    <li><a href="">Media</a></li>
+                </ul>
+            </li>
+
+            <li href=""> <a  class = "box_li" >Tuyển sinh</a></li>
+            <!-- <a href=""> </a> -->
+            <li href=""><a class = "box_li" >Nghiên Cúu</a></li>
+            <li href=""><a class = "box_li" >Nghiên Cúu</a></li>
+            <li href=""><a class = "box_li" >Hợp tác</a></li>               
+            <li href=""><a class = "box_li">Tin Tức</a> </li>
+        </ul>
+        
+    </div>    
+</body>
+</html>

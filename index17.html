@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            #main{
+                border: 2px solid gray;
+                width: 500px;
+                padding: 12px;
+            }
+
+            #main #header{
+                padding-bottom: 10px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 2px solid gray;
+            }
+
+            #main #header li{
+                list-style: none;
+            }
+
+            #navbody .img1 .style_img{
+                padding-right: 10px;
+                width: 300px;
+                height: 200px;
+            }
+
+            #navbody{
+                padding-top: 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            #navbody .img2_3 .style2_3{
+                width: 190px;
+                height: 98px;
+            }
+
+            h1{
+                padding-right: 10px;
+                padding-bottom: 10px;
+                font-size: 20px;
+            }
+
+            .color_word{
+                padding-top: 5px;
+                padding-bottom: 5px;
+                color: palevioletred;
+                text-align: justify;
+            }
+
+            .default{
+                font-size: 15px;
+                padding-right: 5px;
+                color: gray;
+            }
+
+            .right{
+                margin: 0 25px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="header">
+                <ul>
+                    <li>Học</li>
+                </ul>
+
+                <ul style="display: flex;">
+                    <li class="right">Tuyển sinh</li>
+                    <li>Du học</li>
+                </ul>
+            </div>
+
+            <div id="navbody">
+                <div class="img1">
+                    <img class="style_img" src="https://www.elle.vn/wp-content/uploads/2017/07/25/hinh-anh-dep-1.jpg" alt="">
+                    <h1 class="color_word">Nghệ An: 4/441 bài thi vào lớp 10 thay đổi điểm sau chấm phúc khảo</h1>
+                    <p class="default">
+                        Kỳ thi tốt nghiệp trung học phổ thông (hay còn gọi là thi tú tài) là một kỳ thi quan trọng trong hệ thống giáo dục Việt Nam và dành cho học sinh lớp 10.
+                    </p>
+                </div>
+
+                <div class="img2_3">
+                    <img class="style2_3" src="https://www.elle.vn/wp-content/uploads/2017/07/25/hinh-anh-dep-3.jpg" alt="">
+                    <p class="color_word">Mốc thời gian thí sinh cần nhớ sau kỳ thi THPT quốc gia 2019</p>
+                    <img class="style2_3" src="https://www.elle.vn/wp-content/uploads/2017/07/25/hinh-anh-dep-5.jpg" alt="">
+                    <p class="color_word">
+                        Có cần thiết phải chấm lại toàn bộ những bài thi Ngữ 
+                        văn có điểm cao
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
