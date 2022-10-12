@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #main .input-set{
+                outline-color: blue;
+                z-index: 6;
+                height: 50px;
+                width: 350px;
+            }
+
+            #main .input{               
+                position: relative;
+            }
+
+            .adjust{
+                z-index: 1;
+                left: 8;
+                position: absolute;
+                top: 0px;
+                left: 20px;
+            }
+
+            .input-set:focus + .adjust{
+                position: absolute;
+                color: blue;
+                background-color: white;
+                top: -24px;
+                padding: 0 10px;
+            }
+        
+            .color{
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="main">
+            <div class="input">
+                <input class="input-set" type="text">
+                <p class="adjust">Email hoặc số điện thoại</p>
+                <p class="color">Bạn quên địa chỉ email?</p>
+            </div>
+        </div>    
+    </body>
+</html>
