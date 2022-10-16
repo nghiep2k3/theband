@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #main{
+                width: 100%;
+            }
+
+            #main .header{
+                text-align: center;
+                background-color: red;
+                font-size: 15px;
+            }
+
+            #main .body{
+                width: 100%;
+                display: inline-flex;
+                flex-direction: row;
+            }
+
+            .navbody1, .navbody3{
+                text-align: center;
+                width: 200px;
+                flex-grow: 1;
+            }
+
+            .navbody2{
+                height: auto;
+                background-color: rgb(75, 75, 190);
+                text-align: justify;
+                width: 200px;
+                flex-grow: 2;
+            }
+
+            .navbody1{
+                background-color: yellow;
+            }
+
+            .navbody3{
+                
+                background-color: pink;
+            }
+
+            #main .footer{
+                text-align: center;
+                background-color: 	#7CFC00;
+            }
+
+            .word{
+                padding: 10px 0px;
+            }
+
+            .word2{
+                padding: 20px 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="main">
+            <div class="header">
+                <b>Header</b>
+            </div>
+
+            <div class="body">
+                <div class="navbody1">
+                    <div class="word"><b>Aside 1</b></div>
+                </div>
+
+                <div class="navbody2">
+                    <div class="word2">
+                        <b>Theo những thông tin mới được công bố, sự rút lui nhanh chóng của quân đội Nga ở Kharkov có sự đóng góp rất lớn từ quyết định tấn công phủ đầu bằng tên lửa đạn đạo của Kiev nhằm vào kho đạn dược và vũ khí trọng yếu của Moscow tại khu vực này.
+                        </b>
+                    </div>
+                </div>
+
+                <div class="navbody3">
+                    <div class="word"><b>Aside 2</b></div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <b>Footer</b>
+            </div>
+        </div>
+    </body>
+</html>
