@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .circle{
+            width: 100px;
+            margin: auto;
+            border-radius: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: infini
+            
+        }
+
+        @keyframes example {
+            0%  {background-color:red; left:0px; top:0px;}
+            25% {background-color: red; left: 332px; top: 250px;}
+            75% {background-color: red; top: 550px; left: 0;}
+            100% {background-color: red; right: 300px; top: 100px;}
+        }
+        </style>
+    </head>
+
+    <body>
+        <div id="main">
+            <div class="circle"></div>
+        </div>    
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style> 
+            .circle{
+            width: 100px;
+            height: 100px;
+            background: red;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            animation-name: example;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            }
+            
+            @keyframes example {
+                0%   { left:0%; top:55%;}
+                25%  { left:55%; top:0%;}
+                50%  { left:calc(100% - 100px); top:50%;}
+                75%  { left:55%; top:calc(100% - 100px);}
+                100% { left:0%; top:50%;}
+            }
+            #circle1{
+                animation-delay: 0s;
+            }
+            #circle2{
+                animation-delay: 0.1s;
+            }
+            #circle3{
+                animation-delay: 0.2s;
+            }
+            #circle4{
+                animation-delay: 0.3s;
+            }
+            #circle5{
+                animation-delay: 0.4s;
+            }
+        </style>
+    </head>
+
+    <body>       
+        <div id="circle1" class="circle" ></div>
+        <div id="circle2" class="circle" ></div>
+        <div id="circle3" class="circle" ></div>
+        <div id="circle4" class="circle" ></div>
+        <div id="circle5" class="circle" ></div>
+    </body>
+</html>

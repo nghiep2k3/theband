@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <style>
+        div{
+            display: inline;
+        }
+     </style>
+     
+ </head>
+ <body>
+     <div id="clock">
+         <div id="thoi_gian">
+             <div>
+                    <div id="gio"></div> 
+                    <div>Giờ</div>
+             </div>
+             <div>
+                    <div id="phut"></div>
+                    <div>Phút</div>
+             </div>
+             <div>
+                    <div id="giay"></div>
+                    <div>Giây</div>
+             </div>
+         </div>
+     </div>
+     <script>
+        function clock() {
+            var gio = document.getElementById("gio");
+            var phut = document.getElementById("phut");
+            var giay = document.getElementById("giay");
+            var a = new Date().getHours();
+            var b = new Date().getMinutes();
+            var c = new Date().getSeconds();
+            gio.innerHTML = a;
+            phut.innerHTML = b;
+            giay.innerHTML = c;
+        }
+       var Dem_gio = setInterval(clock, 1000);
+    </script>
+   
+ </body>
+ </html>

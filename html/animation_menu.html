@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .card{
+                
+                padding: 22px 18px 22px 18px;
+                overflow: hidden;
+                background: #232323;
+                box-shadow: 0px 2px 21px rgba(0,0,0,0.25);
+                border-radius: 26px;
+            }
+
+            .title{
+                padding: 8px 102px 8px 102px;
+                transition: all ls ease-in-out;
+            }
+
+            .title, ol{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                letter-spacing: 1px;
+                color: #FFFFFF;
+                background: #474747;
+                box-shadow: 0px 2px 13px rgba(0,0,0,0.25);
+                border-radius: 5px;
+            }
+
+            ol{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: center;
+                width: 200px;
+                font-weight: 600;
+                padding-left: 40px;
+                height: 0;
+                opacity: 0;
+                font-size: 20px;
+                transition: all ls ease-in-out;
+            }
+            li{
+                width: 100%;
+            }
+
+            .card:hover ol{
+                margin-top: 20px;
+                height: 300px;
+                opacity: 1;
+            }
+
+            .card:hover .title{
+                background: #6B00D7;
+            }
+
+            .iframe{
+                width: 1080px;
+                height: 500px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="card">
+                <div class="title">
+                    <h1>Title</h1>
+                </div>
+
+                <div class="description">
+                    <ol type="1">
+                        <li>Point One</li>
+                        <li>Point Two</li>
+                        <li>Point Three</li>
+                        <li>Point Four</li>
+                        <li>Point Five</li>
+                    </ol>
+                </div>
+            </div>
+
+            <iframe target="blank" class="iframe" target="blank" src="  " frameborder="1" style="border: 10px solid red;"></iframe>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #result{
+                text-align: center;
+                width: 200px;
+                height: 200px;
+                background-color: antiquewhite;
+            }
+        </style>
+    </head>
+        
+    <body>
+        <form>
+            Nhập số a: <input type="text" id="a" value=""/> <br/>
+            Nhập số b: <input type="text" id="b" value=""/> <br/>
+            <input type="button" id="giaiBtn" value="Tìm nghiệm"/>
+            <div id="result"></div>
+        </form>
+        
+        <script>
+            var button = document.getElementById('giaiBtn');
+            giaiBtn.onclick = function(){
+                let a = document.getElementById('a').value;
+                let b = document.getElementById('b').value;
+         
+                if (a == "" || b == ""){
+                    alert("Vui lòng nhập dữ liệu");
+                }
+                else {
+                    a = Number(a);
+                    b = Number(b);
+                    if (a == 0 && b == 0){
+                        var x = "phương trình vô số nghiệm"
+                    }
+                    else if (a != 0 && b == 0){
+                        var x = 'Phương trình có nghiệm x = 0'
+                    }
+                    else if (a == 0 && b != 0){
+                        var x = 'Phương trình vô nghiệm'
+                    }
+                    else {
+                        var x = -b/a;      
+                    }    
+                }
+                document.getElementById("result").innerHTML = x;
+            };
+        </script>
+        
+    </body>
+</html>
