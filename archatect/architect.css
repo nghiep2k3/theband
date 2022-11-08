@@ -143,6 +143,7 @@ li{
 
 .des_about
 {
+    text-align: justify;
     margin-top : 16px;
     border-top : 1px solid #f1f1f1 ;
     padding-top :16px; 
@@ -295,8 +296,8 @@ p+p
 }
 .login_footer_big
 {
-    background-color: #fafafa;
-    height : 200px;
+    background-image: linear-gradient(135deg, #492cdd 0%, #ad38e2 100%);
+    height : 300px;
 }
 
 .information_footer
@@ -334,6 +335,7 @@ p+p
 }
 .form_sign_in
 {
+    
     display: flex;
     margin: auto;
 
@@ -353,10 +355,10 @@ p+p
     cursor: pointer;
 }
 
-.sign_in_now
-{
-    padding: 10px 20px;
-    border-radius: 5px red  ;
+.sign_in_now{
+    border: 2px solid red;
+    padding: 15px 25px;
+    border-radius: 10px;
 }
 .authen__form
 {

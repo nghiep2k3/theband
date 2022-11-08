@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DCDCDC;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background: gray;
+}
+
+#header h1{
+    color: green;
+    text-transform: uppercase   ;
+    padding: 20px 0 10px 30px;
+}
+
+#header .nav_header{
+    width: 100%;
+    height: 46px;
+    background-color: green;
+}
+
+#header .nav_header li{
+    display: inline-block;
+}
+
+#nav > li > a{
+    color: white;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    text-decoration: none; /* để bỏ gạch chân của chữ*/
+    padding: 0px 24px;
+    line-height: 46px; /*đôi đen chọn đc cả khung */
+}
+
+#nav .border{
+    border-left: 2px solid darkgrey;
+    border-right: 2px solid darkgray;
+}
+
+#nav .border1{
+    border-right: 2px solid darkgray;
+}
+
+#body{
+    margin-top: 10px;
+    height: 1000px;
+}
+
+
+#body .nav_body1_left{
+    background-color: yellowgreen;
+    display: inline-flex;
+    width: 75%;
+}
+
+#body .nav_body1_right{
+    margin: 0px 10px;
+    height: 400px;
+    border-top: 4px solid green;
+    width: 25%;
+    height: 400px;
+    background-color: aqua;
+}
+
+.list_sevendays{
+    margin: 10px 10px;
+    box-sizing: margin-box;
+    background-color: aliceblue;
+    height: 350px;
+}
+
+.button1 button{
+    cursor: pointer;
+    background-color: #DCDCDC;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+}
+
+.button2 button{
+    cursor: pointer;
+    background-color: brown;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+}
+
+.all_button{
+    margin-top: 100px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.list_sevendays input{
+    margin: 10px 10px;
+}
+
+.list_sevendays p{
+    padding-left: 20px;
+}
+
+.nav_body1{
+    padding-top: 30px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.img_body1_left{
+    width: 60%;
+    background-color: brown;
+}
+
+.text_body1_right{
+    width: 40%;
+    padding: 0 10px;
+    /* background-color: burlywood; */
+}
+
+.img_body1_left img{
+    width: 100%;
+    height: 400px;
+}
+
+.p_gray{
+    color: gainsboro;
+}
+
+.img_body1_right img{
+    padding: 10px 0 10px 0;
+    width: 180px;
+    height: 130px;
+}
+
+.imgandtext{
+    display: inline-flex;
+}
+
+.img_text1_right p{
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#img2_body1_right_border{
+    padding: 10px 0;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.nav_body1_right h3{
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.body2_left_up{
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: inline-flex;
+    width: 100%;
+    background-color: forestgreen;
+}
+
+.body2_img_left img,.body2_left_down img{
+    width: 230px;
+    height: 200px;
+}
+
+.nav_body2 {
+    display: inline-flex;
+    width: 100%;
+}
+
+.body2_text_right{
+    font-size: 30px;
+}
+
+.body2_text_right{
+    padding: 30px 30px;
+}
+
+.body2_text_right .p_gray{
+    padding-bottom: 10px;
+}
+
+.nav_body2_left{
+    width: 75%;
+}
+
+.body2_left_down{
+    background-color: yellow;
+}
+
+.body2_left_down{
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: inline-flex;
+    width: 100%;
+    background-color: forestgreen;
+}
+
+.nav_body2_right{
+    margin: 0px 10px;
+    margin-top: 10px;
+    width: 25%;
+    height: 300px;
+    background-color: darkgrey;
+}
+
+.nav_body2_right h4{
+    padding: 20px 0px 20px 40px;
+    text-transform: uppercase;
+    color: green;
+} 
+
+.list_useful ul{
+    padding-left: 45px;
+}
+
+.list_useful li{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.body3_left_text{
+    width: 120px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: brown;
+    text-transform: uppercase; 
+}
+.body3_left_img img{
+    width: 300px;
+    height: 180px;
+}
+
+.img_text{
+    display: inline-flex;
+}
+
+.nav_body3_left{
+    background-color: yellow;
+    width: 50%;
+}
+
+.body3_left_text2{
+    font-size: 25px;
+}
+
+.nav_body3{
+    width: 100%;
+    display: inline-flex;
+    background-color: palevioletred;
+}

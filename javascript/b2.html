@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #main{
+                background-color: palevioletred;
+                width: 200px;
+            }
+
+            #chatbox{
+                display: flex;
+                justify-content: center;
+                width: 200px;
+            }
+            input{
+                display: block;
+            }
+
+            h1{
+                cursor: pointer;
+                font-size: 15px;
+            }
+
+            .close form{
+                display: none;
+            }
+
+            .open form{
+                display: block;
+            }
+
+            img{
+                width: 300px;
+                height: 300px;
+            }
+
+            .bg_box{
+                width: 100vw;
+                height: 100vh;
+                position: fixed;
+                background-color: #000;
+                opacity: 0.5;
+            }
+
+            .img_box{
+                width: 60%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <!-- <div id="chatbox" class="close">
+                <h1 onclick="hidden1()">Chat with me</h1>
+                <form action="">
+                    <input id="name" type="text" placeholder="Họ và tên">
+                    <input id="content" style="margin-top: 5px;" type="text" placeholder="Nội dung">
+                </form>
+            </div> -->
+            
+        </div>
+
+        <div onclick="zoomin() " class="bg_box" style="display: none;"></div>
+
+        <img class="img_box" style="display: none;" src="" alt="">
+
+        <div id="img">
+            <img onclick="zoomout(this.src)" src="https://image.thanhnien.vn/w1024/Uploaded/2022/jhvabun/2022_07_04/2-8577.jpg" alt="">
+        </div>
+        <script>
+            function hidden1(){
+                chatbox = document.getElementById("chatbox");
+                if(chatbox.className == "close"){
+                    chatbox.className = "open";
+                }
+                else{
+                    chatbox.className = "close";
+                }
+            }
+
+            function zoomout(src_img){
+                document.querySelector("img_box").src = src_img;
+                document.querySelector("img_box").src = "block";
+                document.querySelector("bg_box").src = "block";
+            }
+
+            function zoomin(){
+                document.querySelector("img_box").src = "none";
+                document.querySelector("bg_box").src = "none";
+            }
+        </script>
+    </body>
+</html>
